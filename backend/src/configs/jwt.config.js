@@ -8,6 +8,6 @@ const jwtConfig = {
   |--------------------------------------------------------------------------
   */
   jwtSecret: process.env.JWT_SECRET,
-  tokenExpiration: "1h",
+  tokenExpiration: "1d",
 };
 module.exports = jwtConfig;
